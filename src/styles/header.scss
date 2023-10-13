@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    &-logo{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .header{
+        max-width: 320px;
+    
+        &-logo{
+            width: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        max-width: 300px;
+    }
+}

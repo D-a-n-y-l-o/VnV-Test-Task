@@ -1,0 +1,51 @@
+.social{
+    padding: 40px 0;
+    border-top: 2px solid white;
+
+    &-container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    &-ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    &-li{
+        transition: 0.5s;
+        text-align: center;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &-link{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:visited{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .social{
+        &-container{
+            max-width: 300px;
+        }
+    
+        &-ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px
+        }
+    }
+}
