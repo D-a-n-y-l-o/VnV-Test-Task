@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VnV-Test-Task/static/css/main.401bd51f.css",
+    "main.js": "/VnV-Test-Task/static/js/main.61446c5d.js",
+    "static/media/Iren.jpg": "/VnV-Test-Task/static/media/Iren.5329068a89f79f4882fa.jpg",
+    "static/media/learnItLive.jpg": "/VnV-Test-Task/static/media/learnItLive.f5083db9740a6171093b.jpg",
+    "static/media/ERP.png": "/VnV-Test-Task/static/media/ERP.84980c51d6bcec5b5d19.png",
+    "static/media/online-store.jpg": "/VnV-Test-Task/static/media/online-store.98b5effeee5c6a9da7de.jpg",
+    "static/media/volstiny.jpg": "/VnV-Test-Task/static/media/volstiny.4639461f4e625c11b1d3.jpg",
+    "static/media/bot-development.png": "/VnV-Test-Task/static/media/bot-development.907780246b258e37b044.png",
+    "static/media/website-transferring.png": "/VnV-Test-Task/static/media/website-transferring.726fd268becc1a5bd299.png",
+    "static/media/vnv logo-05.png": "/VnV-Test-Task/static/media/vnv logo-05.6328696c9eac305aeaef.png",
+    "static/media/Discount.png": "/VnV-Test-Task/static/media/Discount.cd18e37299364fb4e591.png",
+    "static/media/software-development.jpg": "/VnV-Test-Task/static/media/software-development.def3ee36605a536c316f.jpg",
+    "static/media/update.png": "/VnV-Test-Task/static/media/update.f7d0230f1d2668681b4c.png",
+    "static/media/sprite.svg": "/VnV-Test-Task/static/media/sprite.e41cd321b6b3ea71196ee6d1909fc568.svg",
+    "index.html": "/VnV-Test-Task/index.html",
+    "main.401bd51f.css.map": "/VnV-Test-Task/static/css/main.401bd51f.css.map",
+    "main.61446c5d.js.map": "/VnV-Test-Task/static/js/main.61446c5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.401bd51f.css",
+    "static/js/main.61446c5d.js"
+  ]
+}
