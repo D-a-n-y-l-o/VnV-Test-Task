@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VnV-Test-Task/static/css/main.2af03251.css",
+    "main.css": "/VnV-Test-Task/static/css/main.6485e544.css",
     "main.js": "/VnV-Test-Task/static/js/main.61446c5d.js",
     "static/media/Iren.jpg": "/VnV-Test-Task/static/media/Iren.5329068a89f79f4882fa.jpg",
     "static/media/learnItLive.jpg": "/VnV-Test-Task/static/media/learnItLive.f5083db9740a6171093b.jpg",
@@ -15,11 +15,11 @@
     "static/media/update.png": "/VnV-Test-Task/static/media/update.f7d0230f1d2668681b4c.png",
     "static/media/sprite.svg": "/VnV-Test-Task/static/media/sprite.e41cd321b6b3ea71196ee6d1909fc568.svg",
     "index.html": "/VnV-Test-Task/index.html",
-    "main.2af03251.css.map": "/VnV-Test-Task/static/css/main.2af03251.css.map",
+    "main.6485e544.css.map": "/VnV-Test-Task/static/css/main.6485e544.css.map",
     "main.61446c5d.js.map": "/VnV-Test-Task/static/js/main.61446c5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2af03251.css",
+    "static/css/main.6485e544.css",
     "static/js/main.61446c5d.js"
   ]
 }
