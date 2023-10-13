@@ -39,10 +39,10 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .social{
         &-container{
-            max-width: 300px;
+            max-width: 340px;
         }
     
         &-ul{
@@ -53,6 +53,14 @@
 
         &-li{
             margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .social{
+        &-container{
+            max-width: 300px;
         }
     }
 }

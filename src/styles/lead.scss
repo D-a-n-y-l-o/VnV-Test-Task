@@ -86,17 +86,58 @@
     } 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .lead{
         padding: 20px 0 80px;
+    
+        &-container{
+            max-width: 340px;
+        }
+    
+        &-title{
+            font-size: 22px;
+            margin: 20px auto 40px;
+            width: 320px;
+        }
+    
+        &-text{
+            width: 320px;
+        }
+    
+        &-image{
+            width:320px;
+        }
+    
+        &-form{
+            width: 300px;
+    
+            &-label{
+                font-size: 12px;
+                line-height: 14px;
+            }
+    
+            &-input{
+                width: 300px;
+                font-size: 12px;
+                line-height: 14px;
+    
+                &::placeholder{
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        } 
+    }
+}
+
+@media screen and (max-width: 360px){
+    .lead{
     
         &-container{
             max-width: 300px;
         }
     
         &-title{
-            font-size: 22px;
-            margin: 20px auto 40px;
             width: 280px;
         }
     
@@ -111,20 +152,8 @@
         &-form{
             width: 260px;
     
-            &-label{
-                font-size: 12px;
-                line-height: 14px;
-            }
-    
             &-input{
                 width: 260px;
-                font-size: 12px;
-                line-height: 14px;
-    
-                &::placeholder{
-                    font-size: 12px;
-                    line-height: 14px;
-                }
             }
         } 
     }

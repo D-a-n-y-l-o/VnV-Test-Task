@@ -91,10 +91,10 @@
     height: 375px;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .service-section{
         &-container{
-            max-width: 300px;
+            max-width: 340px;
         }
 
         &-title{
@@ -115,7 +115,7 @@
         padding: 3px 10px;
         font-size: 12px;
         margin: 0 0 6px;
-        width: 240px;
+        width: 280px;
 
         &:last-child{
             margin-bottom: 0px;
@@ -150,6 +150,18 @@
     .service-text-container{
         max-width: 300px;
         height: fit-content;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .service-section{
+        &-container{
+            max-width: 300px;
+        }
+    }
+
+    .service-filter{
+        width: 240px;
     }
 }
 

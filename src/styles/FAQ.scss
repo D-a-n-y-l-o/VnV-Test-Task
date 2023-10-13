@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .faq{    
         &-title{
             font-size: 22px;
@@ -71,7 +71,7 @@
         }
     
         &-container{
-            max-width: 300px;
+            max-width: 340px;
         }
     
         &-items-container{
@@ -81,7 +81,7 @@
     
         &-item-container{
             height: 50px;
-            width: 300px;
+            width: 340px;
     
             &-expanded{
                 height: 200px;
@@ -90,6 +90,19 @@
                     height: 220px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .faq{    
+    
+        &-container{
+            max-width: 300px;
+        }
+    
+        &-item-container{
+            width: 300px;
         }
     }
 }

@@ -82,12 +82,12 @@
     };
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .why-us{
         padding: 20px 0;
     
         &-section{
-            max-width: 320px;
+            max-width: 340px;
         }
     
         &-title{
@@ -103,6 +103,19 @@
     
         &-cell{
             margin: 0 auto;
+            width: 300px;
+        };
+    }
+}
+
+@media screen and (max-width: 360px){
+    .why-us{
+    
+        &-section{
+            max-width: 320px;
+        }
+    
+        &-cell{
             width: 260px;
         };
     }

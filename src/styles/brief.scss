@@ -118,6 +118,48 @@
     }  
 }
 
+@media screen and (max-width: 430px){
+    .brief{
+        &-container{
+            max-width: 340px;
+        }
+
+        &-title{
+            text-align: center;
+        }
+
+        &-form{
+            margin: 30px auto 20px;
+            width: 300px;
+    
+            &-title{
+                font-size: 20px;
+                margin: 0 0 20px;
+            }
+    
+            &-grid{
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+            }
+    
+            &-label{
+                width: 300px;
+                font-size: 14px;
+                margin: 10px 0px 5px 10px;
+            }
+    
+            &-input{
+                width: 300px;
+            }
+    
+            &-error-message{
+                width: 300px;
+            }
+        }  
+    }
+}
+
 @media screen and (max-width: 360px){
     .brief{
         &-container{
@@ -155,21 +197,12 @@
             margin: 30px auto 20px;
             width: 260px;
     
-            &-title{
-                font-size: 20px;
-                margin: 0 0 20px;
-            }
-    
             &-grid{
-                display: flex;
-                flex-direction: column;
                 width: 260px;
             }
     
             &-label{
                 width: 260px;
-                font-size: 14px;
-                margin: 10px 0px 5px 10px;
             }
     
             &-input{

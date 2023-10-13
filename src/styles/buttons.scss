@@ -98,15 +98,14 @@
     }
 }
 
-
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .order-button{
-        width: 120px;
-        height: 40px;
-        font-size: 18px;
+        height: 45px;
+        font-size: 20px;
 
         &-wide{
-            width: 300px;
+            width: 320px;
+            margin-top: 20px;
             border-radius: 10px;
         }
     }
@@ -133,8 +132,29 @@
 
     .form-button{
         border: 2px solid white;
-        width: 260px;
+        width: 280px;
         margin-top: 40px;
+    
+        &-wide{
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .order-button{
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+
+        &-wide{
+            width: 300px;
+            border-radius: 10px;
+        }
+    }
+
+    .form-button{
+        width: 260px;
     
         &-wide{
             width: 260px;

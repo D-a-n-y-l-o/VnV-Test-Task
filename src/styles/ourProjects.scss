@@ -30,15 +30,27 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .projects{
-        max-width: 300px;
+        max-width: 340px;
     
         &-title{
             font-size: 22px;
             margin-bottom: 20px;
             padding-left: 10px
         }
+    }
+    
+    .carousel{
+        &-item{
+            height: 170px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    .projects{
+        max-width: 300px;
     }
     
     .carousel{

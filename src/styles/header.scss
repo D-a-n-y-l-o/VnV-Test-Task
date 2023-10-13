@@ -10,6 +10,16 @@
     }
 }
 
+@media screen and (max-width: 430px){
+    .header{
+        max-width: 340px;
+    
+        &-logo{
+            width: 90px;
+        }
+    }
+}
+
 @media screen and (max-width: 360px){
     .header{
         max-width: 320px;
