@@ -11,13 +11,16 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 300px;
-        margin: 0 auto;
     }
 
     &-li{
         transition: 0.5s;
         text-align: center;
+        margin-right: 40px;
+
+        &:last-child{
+            margin-right: 0px;
+        }
 
         &:hover{
             transform: scale(1.1);
@@ -46,6 +49,10 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px
+        }
+
+        &-li{
+            margin-right: 0;
         }
     }
 }
